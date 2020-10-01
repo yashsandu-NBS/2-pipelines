@@ -9,7 +9,7 @@ pipeline {
 		stage('Run Images') {
 			steps {
 				sh "./scripts/run_images.sh"		
-			)
+			}
 		}
 	}
 }
